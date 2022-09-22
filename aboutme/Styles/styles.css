@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    color: black;
+    font-size:18px;
+}
+nav {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+a {
+    color: darkolivegreen;
+    margin: 80px;
+}
+h1 {
+    color: darkolivegreen;
+    font-size:30px;
+}
+h2 {
+    font-size: 25px;
+}
+img {
+    width: 200px;
+    border: darkolivegreen;
+}
+p {
+    padding: 20px
+}
+footer {
+    background-color: darkslategray;
+    color: darkslategray;
+}
