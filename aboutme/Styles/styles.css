@@ -6,10 +6,11 @@ body {
 nav {
     background-color: whitesmoke;
     padding: 10px;
+    
 }
 a {
     color: darkolivegreen;
-    margin: 80px;
+    margin: 40px;
 }
 h1 {
     color: darkolivegreen;
@@ -22,10 +23,18 @@ img {
     width: 200px;
     border: darkolivegreen;
 }
-p {
+p { 
     padding: 20px
 }
 footer {
     background-color: darkslategray;
+    color: darkslategray;
+}
+.main-para{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#active {
+    background-color: white;
     color: darkslategray;
 }
