@@ -3,10 +3,6 @@ body {
     color: black;
     font-size:18px;
 }
-nav {
-    background-color: whitesmoke;
-    padding: 10px;
-}
 a {
     color: darkolivegreen;
     margin: 40px;
@@ -25,9 +21,10 @@ img {
 p { 
     padding: 20px
 }
-footer {
+nav, footer {
     background-color: darkslategray;
     color: darkslategray;
+    padding: 10px;
 }
 .main-para{
     font-size: 1.5em;
