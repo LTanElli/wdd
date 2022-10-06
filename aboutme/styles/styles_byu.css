@@ -1,36 +1,52 @@
 body {
-    text-align: center;
     color: black;
     font-size:18px;
 }
 a {
-    color: darkolivegreen;
+    color: black;
     margin: 40px;
 }
 h1 {
-    color: darkolivegreen;
+    text-align: center;
+    color: black;
     font-size:30px;
 }
 h2 {
     font-size: 25px;
 }
 img {
-    width: 200px;
-    border: darkolivegreen;
+    width: 80%;
+    border: 4px black;
+    display: block;
+    margin: 0 auto;   
 }
 p { 
     padding: 20px
 }
 nav, footer {
+    text-align: center;
     background-color: darkslategray;
-    color: darkslategray;
+    color: whitesmoke;
     padding: 10px;
 }
 .main-para{
     font-size: 1.5em;
     line-height: 1.5em;
+    margin: 50px auto;
+    text-align: center;
 }
 #active {
     background-color: white;
     color: darkslategray;
+}
+footer p {
+    font-size: 30px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: white;
+    color: darkslategrey;
+}
+* {
+    border: 2px solid blue;
 }
