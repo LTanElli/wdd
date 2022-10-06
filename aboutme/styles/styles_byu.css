@@ -5,6 +5,7 @@ body {
 a {
     color: black;
     margin: 40px;
+    font-size: 1.5em;
 }
 h1 {
     text-align: center;
@@ -16,7 +17,7 @@ h2 {
 }
 img {
     width: 80%;
-    border: 4px black;
+    border: 4px solid black;
     display: block;
     margin: 0 auto;   
 }
