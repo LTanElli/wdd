@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+    margin: 0;
+}
+.center{
+    width: 100%;
+}
+.desk{
+    width: 300px;
+    height: 300px;
+    border-radius: 80%;
+    border-color: black;
+    border-width: 20px;
+    border-style: ridge;
+    margin-right: 10px;
+}
+.thing{
+    width: 300px;
+    height: 300px;
+    border-radius: 80%;
+    border-color: black;
+    border-width: 20px;
+    margin-left: 10px;
+    border-style: ridge;
+    margin-right: 10px;
+}
+.person{
+    width: 300px;
+    height: 300px;
+    border-radius: 80%;
+    border-color: black;
+    border-width: 20px;
+    border-style: ridge;
+    margin-left: 10px;
+}
+.banner{
+    text-align: center;
+}
