@@ -46,7 +46,49 @@ nav a{
 }
 #home-grid{
     display: grid;
-    grid-template-columns: repeat(10, 150px);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.rivers_card{
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+.camping_card{
+    grid-column: 5 / 7;
+    grid-row: 2 / 3;
+}
+.rapids_card{
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+#background{
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.mountains{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg{
+    background-color: #6f7364;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .button-box{
     text-align: center;
@@ -109,6 +151,9 @@ footer{
     font-family: "Roboto, Helvetica, sans-serif";
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 footer a{
     color: #1F1F1F;
@@ -185,4 +230,46 @@ footer .social img{
 }
 .card_img{
     border: 10px solid #1F1F1F;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
