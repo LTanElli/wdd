@@ -1,0 +1,16 @@
+/*main*/
+body{
+    display: grid;
+    grid-template-rows: 2fr 3fr 1fr;
+}
+/*img*/
+img{
+    max-width: 350px;
+    height: 270px;
+}
+/*footer*/
+.foot{
+    background-color:darkslateblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
