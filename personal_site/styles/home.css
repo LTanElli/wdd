@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
+/* whole body */
+
+/* whole body */
+
+
+/* header */
+#content{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 100%;
+}
+header{
+    background-color: #171A21;
+}
+#logo_link{
+    text-align: center;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 120px;
+    border: 10px solid #4E6E58;
+}
+nav a:hover{
+    background-color: #4E6E58;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+nav a{
+    text-align: center;
+    color: #DAD2D8;
+    text-decoration: none;
+    font-family: "Rubik 500";
+    padding: 35px;
+}
+/* header */
+
+
+/* main for home */
+.main-for-home{
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    background-color: #DAD2D8;
+}
+.page-title{
+    grid-row: 1 / 2;
+    text-align: center;
+    color: #171A21;
+    font-family: "Rubik 500";
+}
+.japan-container{
+    text-align: center;
+}
+.japan-img{
+    grid-row: 2 / 3;
+    border: 10px solid #942911; 
+    margin: 40px
+}
+.homeh2{
+    grid-row: 3 / 4;
+    text-align: center;
+    font-family: "Rubik 500";
+    color: #171A21;
+}
+.home-info{
+    grid-row: 3 / 4;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 200;
+    font-size: larger;
+    color: #171A21;
+}
+.manga-sign-container{
+    text-align: center;
+}
+.manga-sign-img{
+    grid-row: 4 / 5;
+    border: 10px solid #942911;
+    margin: 40px;
+}
+.homeh2-2{
+    grid-row: 5 / 6;
+    text-align: center;
+    font-family: "Rubik 500";
+    color: #171A21;
+}
+.home-info-2{
+    grid-row: 5 / 6;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 200;
+    font-size: larger;
+    padding-bottom: 50px;
+    color: #171A21;
+}
+/* main for home */
+
+
+/* main for page 2 */
+.main-for-page2{
+    display: grid;
+    grid-template-rows: repeat(8, auto);
+    background-color: #DAD2D8;
+}
+.page-title{
+    grid-row: 1 / 2;
+    text-align: center;
+    color: #171A21;
+    font-family: "Rubik 500";
+}
+.page2-sub{
+    grid-row: 1 / 2;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 300;
+    font-size: larger;
+    color:#171A21
+}
+.manga-container{
+    text-align: center;
+}
+.manga-img{
+    grid-row: 2 / 3;
+    border: 10px solid #942911; 
+    margin: 40px
+}
+.page2h2{
+    grid-row: 3 / 4;
+    text-align: center;
+    font-family: "Rubik 500";
+    color: #171A21;
+}
+.number4-sub{
+    grid-row: 3 / 4;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 300;
+    font-size: larger;
+    color:#171A21
+}
+.target-container{
+    grid-row: 4 / 5;
+    text-align: center;
+}
+.target-img{
+    grid-row: 4 / 5;
+    border: 10px solid #942911; 
+    margin: 40px;
+    width: 800px
+}
+.page2-info{
+    grid-row: 5 / 6;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 200;
+    font-size: larger;
+    padding-bottom: 50px;
+    color:#171A21
+}
+.page2h2-2{
+    grid-row: 6 / 7;
+    text-align: center;
+    font-family: "Rubik 500";
+    color: #171A21;
+}
+.page2h2-2-sub{
+    grid-row: 6 / 7;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 300;
+    font-size: larger;
+    color:#171A21
+}
+.manga2-container{
+    text-align: center;
+}
+.manga2-img{
+    grid-row: 7 / 8;
+    border: 10px solid #942911; 
+    margin: 40px;
+}
+.page2-info2{
+    grid-row: 8 / 9;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 200;
+    font-size: larger;
+    padding-bottom: 50px;
+    color:#171A21
+}
+.previous1{
+    font-family: "Rubik 500";
+}
+.next1{
+    font-family: "Rubik 500";
+}
+/* main for page 2 */
+
+
+/* main for page 3 */
+.main-for-page3{
+    display: grid;
+    grid-template-rows: repeat(8, auto);
+    background-color: #DAD2D8;
+}
+.page-title{
+    grid-row: 1 / 2;
+    text-align: center;
+    color: #171A21;
+    font-family: "Rubik 500";
+}
+.page3-title-sub{
+    grid-row: 1 / 2;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 300;
+    font-size: larger;
+    padding-bottom: 50px;
+    color:#171A21
+}
+.boxes-container{
+    text-align: center;
+}
+.boxes-img{
+    grid-row: 2 / 3;
+    border: 10px solid #942911; 
+    margin: 40px;
+}
+.page3h2{
+    grid-row: 3 /4;
+    text-align: center;
+    font-family: "Rubik 500";
+    color: #171A21;
+}
+.page3h2-sub{
+    grid-row: 3 / 4;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 300;
+    font-size: larger;
+    color:#171A21
+}
+.barnes-container{
+    text-align: center;
+}
+.barnes-img{
+    grid-row: 4 / 5;
+    border: 10px solid #942911; 
+    margin: 40px;
+}
+.page3-info{
+    grid-row: 5 / 6;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 200;
+    font-size: larger;
+    color:#171A21
+}
+.page3h2-2{
+    grid-row: 6 / 7;
+    text-align: center;
+    font-family: "Rubik 500";
+    color: #171A21;
+}
+.page3h2-2-sub{
+    grid-row: 6 / 7;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 300;
+    font-size: larger;
+    color:#171A21
+}
+.rightstuf-container{
+    text-align: center;
+}
+.rightstuf-img{
+    grid-row: 7 / 8;
+    border: 10px solid #942911; 
+    margin: 40px;
+    width: 800px;
+}
+.page3-info2{
+    grid-row: 8 / 9;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-family: "Roboto, Helvetica, sans-serif";
+    font-weight: 200;
+    font-size: larger;
+    color:#171A21;
+    padding-bottom: 50px;
+}
+/* main for page 3 */
+
+
+/* Contact us */
+main{
+    background-color: #DAD2D8;
+    margin: 0;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #DAD2D8;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li{
+    margin-top: 2em;
+}
+label{
+    display: inline-block;
+    width: 60px;
+    text-align: left;
+}
+label:hover{
+    background-color:#4E6E58;
+    color:#DAD2D8;
+    width: 60px;
+}
+input,
+textarea{
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #171A21;
+    background-color: #DAD2D8;
+    vertical-align: top;
+}
+input:focus,
+textarea:focus{
+    border-color: #4E6E58;
+}
+textarea{
+    vertical-align: top;
+    height: 10em;
+}
+.button{
+    padding-left: 100px;
+}
+button{
+    margin-left: 3.5em;
+}
+#feedback{
+    background-color:#DAD2D8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+.movedown{
+    margin-top: 3em;
+}
+/* Contact us */
+
+
+/* footer */
+footer{
+    background-color: #171A21;
+    color: #DAD2D8;
+    font-family: "Roboto, Helvetica, sans-serif";
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+}
+footer a{
+    color: #DAD2D8;
+    text-decoration: none;
+    font-family: "Rubik 500";
+}
+footer div a{
+    color: #DAD2D8;
+    text-decoration: none;
+    font-family: "Rubik 500";
+    font-size: 1.2em;
+}
+footer a:hover{
+    color: #4E6E58;
+    text-decoration: underline;
+}
+footer p{
+    font-size: 1.2em;
+    font-family: "Rubik 500";
+}
+.copy{
+    font-family: "Rubik 500";
+    color: #DAD2D8
+}
+/* footer */
